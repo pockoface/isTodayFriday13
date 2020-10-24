@@ -2,7 +2,7 @@ body,html{
     height:100%;
 }
 
-.current-date {
+#current-date {
   color:#FF0000;
 }
 
