@@ -1,8 +1,13 @@
-body,html{
+body,html {
     height:100%;
 }
 
-#current-date {
+body {
+  background-color: #121517;
+  color: #ffffff;
+}
+
+#current-date,#thirteen {
   color:#FF0000;
 }
 
@@ -12,4 +17,5 @@ body,html{
 
 .result {
   font-size: 76px;
+  font-weight: bolder;
 }
