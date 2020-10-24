@@ -1,0 +1,15 @@
+body,html{
+    height:100%;
+}
+
+.current-date {
+  color:#FF0000;
+}
+
+.center {
+  text-align: center;
+}
+
+.result {
+  font-size: 76px;
+}
