@@ -21,7 +21,22 @@ body {
   text-align: center;
 }
 
-.result {
+#result {
   font-size: 5em;
   font-weight: bolder;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    	0deg,
+      #ffffff,
+	    #ffffff 50%,
+	    #FF0000 50%);
+	    background-size: 100% 200%;
+      background-position: 100% 100%;
+      cursor: none;
+}
+
+#result:hover {
+  transition: all 0.5s cubic-bezier(0.000, 0.000, 0.230, 1);
+  background-position: 0% 0%;
 }
