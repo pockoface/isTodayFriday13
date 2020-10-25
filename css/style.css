@@ -1,5 +1,7 @@
 body,html {
     height:100%;
+    font-size: 1.8em;
+    font-family: "Bebas Neue";
 }
 
 body {
@@ -11,11 +13,15 @@ body {
   color:#FF0000;
 }
 
+#current-date {
+  text-decoration: underline;
+}
+
 .center {
   text-align: center;
 }
 
 .result {
-  font-size: 76px;
+  font-size: 5em;
   font-weight: bolder;
 }
