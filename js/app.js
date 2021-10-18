@@ -1,10 +1,10 @@
 $(document).ready(function() {
     $("#current-date").html(moment().format("MMMM Do YYYY"))
     if (isItFriday() === true && isItTheThirteen() === true) {
-        $("#result").html("YES")
+        $("#result").html("YES!")
     }
     else {
-        $("#result").html("NO")
+        $("#result").html("NO!")
     }
 })
 
